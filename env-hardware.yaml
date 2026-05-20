@@ -1,0 +1,11 @@
+name: obstacle-hw
+channels:
+  - defaults
+dependencies:
+  - python=3.10.12
+  - numpy
+  - scipy
+  - pip
+  - pip:
+      - pyserial
+      # add other hardware-specific libs here
